@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(248, 248, 248);
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 90%;
+  height: 70px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(201, 200, 200);
+}
+
+button {
+  background-color: rgb(99, 99, 255);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.topicList {
+  overflow-y: scroll;
+}
+
+.vote-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-container {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.container-text {
+}
+
+.p {
+  color: rgb(161, 159, 159);
+}
+
+span {
+  color: black;
+}
+
+.delete-container {
+  cursor: pointer;
+}
+
+.topic {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  border: 1px solid rgb(201, 200, 200);
+  margin-bottom: 5px;
+  align-items: center;
+  border-radius: 5px;
+  padding: 10px;
+}

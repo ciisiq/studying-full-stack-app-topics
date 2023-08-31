@@ -1,0 +1,24 @@
+GET    / topics
+POST   / topics
+DELETE /topics/:id
+PUT VoteUp /topics/:id/up
+PUT VoteDown /topics/:id/down
+
+
+React - Navbar use and topclist
+should be in the app parent
+[topics, setTopics] 
+
+1 - Workspace
+2 - Single endpoiint end to end
+  - Server + DB setup
+  - Get/ Topics (endpoint)
+  - Have all components + get topics + basic css
+3 - Rest of server + app
+  - Other endpoints
+  - Button Function
+  - Add Topic function (auto bottom of list)
+  - Sorting by Score
+  - No topics message
+  - empty subission error
+4 - Styling
